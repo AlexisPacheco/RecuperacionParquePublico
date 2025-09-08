@@ -1,0 +1,246 @@
+/*Estilos de div*/
+.divEncabezado{
+    height: 40px; 
+    background: #4E232E;
+}
+
+.divCintillaPiePagina{
+    height: 30px;
+    background-image: url(../IMG/cintillaFinal.png);
+}
+
+.divPresentacionProyecto{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.divImgParqueChimalhuacan{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.divObjetivoGeneral{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.divTblActividadesTareasRecursos{
+    height: 40px;
+    border-radius: 10px;
+    background: #D4C19C;
+    text-align: center;
+    cursor: pointer;
+}
+
+.divDiagramaPerfiles{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.divTblGestionProyecto{
+    height: 40px;
+    border-radius: 10px;
+    background: #D4C19C;
+    text-align: center;
+}
+
+.divImgPlanTrabajo{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+        opacity:0;
+    transform: translatex(100px);
+    transition: all 0.2s ease;
+}
+
+/*Estilos de titulos*/
+h1{
+    color: #621132;
+    font-family: Surface;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+}
+h4{
+    color: #B38E5D;
+    font-family: Surface;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/*Estilos de imagenes*/
+.imgLogoChimalhuacan{
+    width: 90%;
+}
+
+.imgParqueChimalhuacan{
+    width: 60%;
+    border-radius: 4px;
+    border: 5px solid;
+    border-color: #D4C19C;
+    display: block;
+    opacity:0;
+    transform: translatex(100px);
+    transition: all 0.2s ease;
+}
+
+.iconoObjetivo{
+    width: 90%;
+}
+
+.imgParqueSucio{
+    width: 80%;
+    border-radius: 4px;
+    border: 5px solid;
+    border-color: #D4C19C;
+    display: block;
+    opacity:0;
+    transform: translatex(100px);
+    transition: all 0.3s ease;
+}
+
+.diagramaFlujo{
+    width: 60%;
+    display: block;
+    opacity:0;
+    transform: translatex(100px);
+    transition: all 0.3s ease;
+}
+
+.diagramaPerfiles{
+    width: 60%;
+}
+
+.imgPlabTrabajo{
+    width: 90%;
+}
+
+/*Estilos de tablas*/
+.tblEncanbezado{
+    width: 80%;
+}
+
+.tblObjetivosEspecificos{
+    width: 90%; 
+    margin: 0 auto;
+}
+
+.tblActividadesTareasRecursos{
+    margin-top: 20px;
+    display: block;
+    opacity:0;
+    transform: translatex(100px);
+    transition: all 0.2s ease;
+}
+
+.tblActividadesTareasRecursos thead{
+    background: #621132;
+    color: #FFFFFF;
+}
+
+.tblActividadesTareasRecursos tbody td{
+    border: 1px solid;
+    border-color: #621132;
+    text-align: center;
+}
+
+/*Estilos de fields*/
+.fieldObjetivoGeneral{
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 4px;
+    border-color: #621132;
+    display: block;
+    opacity:0;
+    transform: translatex(-100px);
+    transition: all 0.4s ease;
+}
+
+.fieldObjetivosEspecificos{
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 4px;
+    border-color: #621132;
+    display: block;
+    opacity:0;
+    transform: translatex(-100px);
+    transition: all 0.4s ease;
+}
+
+.fieldActividadTareasRecursos{
+    width: 80%;
+    margin: 20px auto;
+    border: none;
+}
+
+.fieldDiagramaFlujo{
+    width: 80%;
+    margin: 20px auto;
+    border: none;
+}
+
+.fieldPerfilesColaboradores{
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 4px;
+    border-color: #621132;
+    display: block;
+    opacity:0;
+    transform: translatex(-100px);
+    transition: all 0.4s ease;
+}
+
+.fieldTblGestionProyecto{
+    width: 80%;
+    margin: 20px auto;
+    border: none;
+}
+
+/*Estilos de legend fields*/
+.lgFieldObjGen{
+    height: 30px;
+    width: 140px;
+    cursor: pointer;
+    background: #621132;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.lgFieldObjEspec{
+    height: 30px;
+    width: 180px;
+    cursor: pointer;
+    background: #621132;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.lgFieldPerfilColab{
+    height: 30px;
+    width: 210px;
+    cursor: pointer;
+    background: #621132;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.show{
+    opacity: 1;
+    transform: translateY(0);
+}
